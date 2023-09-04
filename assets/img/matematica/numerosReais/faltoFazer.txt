@@ -1,0 +1,64 @@
+Site: https://brasilescola.uol.com.br/matematica/numeros-reais.htm
+Falto fazer 
+
+"→ Propriedade comutativa
+Considere n e m números reais.
+
+Na adição, a ordem das parcelas não altera a soma:
+
+m + n = n + m
+
+Na multiplicação, a ordem dos fatores não altera o produto:m · n = n · m
+
+→ Propriedade associativa
+Considere a, m, n números reais.
+
+Na adição de três números, não importa quais números serão somados primeiro.
+
+(a + m) + n = a + (m + n)
+
+Na multiplicação de três números, não importa quais números serão multiplicados primeiro.
+
+(a · m) · n = a · (m · n)
+
+→ Propriedade distributiva
+Considere a, m, n números reais.
+
+Na propriedade distributiva, temos que o produto da soma é igual à soma dos produtos.
+
+a (m + n) = am + an
+
+→ Existência de um inverso na multiplicação
+Considere n um número real diferente de 0.
+
+Para todo número real n, existe um inverso, 1n
+1
+ 
+, tal que o produto de n pelo seu inverso 1n
+1
+ 
+ é igual ao elemento neutro da multiplicação:
+
+n⋅1n=1
+ 
+⋅
+1
+ 
+=
+1
+
+→ Fechamento para a adição e para a multiplicação
+O conjunto dos números reais é fechado para a adição e para a multiplicação, isso quer dizer que:
+
+A soma de dois números reais é um número real.
+
+A multiplicação entre dois números reais é um número real.
+
+Saiba mais: Adição e subtração de notação científica — como fazer?
+
+Representação dos números reais na reta numérica
+Podemos representar os números reais em uma reta, isso possibilita, por exemplo, o desenvolvimento da área da geometria analítica e o estudo de gráficos de funções.
+
+Para essa representação, utilizamos o princípio da boa ordem dos números reais, pois, ao comparar dois números reais distintos, é possível saber qual deles é o maior e então ordená-los. A representação dos números na reta é conhecida como reta numérica ou reta real. O marco zero é conhecido como origem da reta. Para o lado direito, temos os números reais positivos, e, para o lado esquerdo, os números reais negativos."
+
+Veja mais sobre "Números reais" em: https://brasilescola.uol.com.br/matematica/numeros-reais.htm

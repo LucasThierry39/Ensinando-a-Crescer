@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Números Complexos</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Simple line icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+        rel="stylesheet" />
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+        rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper" class="bg-dark">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand"><a href="#page-top">Topo</a></li>
+            <li class="sidebar-nav-item"><a href="../index.html">Inicio</a></li>
+            <li class="sidebar-nav-item"><a href="matematica.html">Álgebra </a></li>
+            <li class="sidebar-nav-item"><a href="reais.html">Números Reais</a></li>
+            <li class="sidebar-nav-item"><a href="bhaskara.html">Bhaskara</a></li>
+            <li class="sidebar-nav-item"><a href="triangulo_retangulo.html">Triangulo Retângulo</a></li>
+            <li class="sidebar-nav-item"><a href="geometria.html">Geometria</a></li>
+        </ul>
+    </nav>
+    <!-- Header-->
+    <header class="masthead2 d-flex align-items-center">
+        <div class="container px-4 px-lg-5 text-center">
+            <h1 class="mb-1" id="tituloTopo">Números Complexos</h1>
+            <h3 class="mb-5" id="tituloTopo"><em>Ensinando a Crescer</em></h3>
+
+        </div>
+    </header>
+    <!-- About-->
+    <section class="masthead content-section" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-10">
+                    <h2>Números Complexos</h2> <br>
+                    <h3 class="titulo">O que são os números complexos?</h3>
+                    <p class="lead mb-5" class="conteudo">
+                        Números complexos são o conjunto de números formados por uma parte real e uma parte imaginária,
+                        em que a parte imaginária corresponde à raiz de um número negativo.
+                    </p>
+                    <img src="../assets/img/matematica/numerosComplexos/modeloTopo.png" class="formatarImagem"> <br>
+                    <br>
+                    <div id="container">
+                        <p class="conteudo">
+                            Os <strong>números complexos</strong> surgem a partir da necessidade de resolução de
+                            equações que possuem
+
+                            <strong>raiz de números negativos</strong>, o que, até então, não era possível de
+                            resolver-se trabalhando
+                            com
+                            os números reais. Os números complexos podem ser representados de três formas: a
+                            <strong>forma
+                                algébrica</strong> (z = a + bi), composta por uma parte real a e uma parte imaginária b;
+                            a <strong>forma
+                                geométrica</strong>, representada no plano complexo conhecido também como plano de
+                            Argand-Gauss; e a
+                            sua <strong>forma trigonométrica</strong>, conhecida também como forma polar. Com base na
+                            sua representação,
+                            como estamos trabalhando com um conjunto numérico, os números complexos possuem
+                            operações
+                            bem definidas: adição, subtração, multiplicação, divisão e potenciação.<br><br>
+
+                            Pela representação geométrica no plano complexo, definimos também o módulo (representado
+                            por
+                            |z|) de um número complexo — que é a distância do ponto que representa o número complexo
+                            até
+                            a origem —, e o que é o argumento de um número complexo — que é o ângulo formado entre o
+                            eixo horizontal e o seguimento que liga a origem ao ponto que representa o número
+                            complexo.
+                        </p>
+
+                        <h3 class="tituloContainer">Necessidade dos números complexos</h3>
+                        <p class="conteudo">
+                            Na matemática, a ampliação de um conjunto numérico para um novo conjunto, ao longo da
+                            história, foi algo bastante comum. Acontece que, nesse decorrer, a matemática
+                            desenvolveu-se, e então, para <strong>atender as necessidades da época</strong>, foi
+                            percebido que
+                            existiam
+                            números que não pertenciam ao conjunto numérico a que se referia. Foi assim com o
+                            surgimento
+                            dos conjuntos numéricos dos inteiros, dos racionais, dos irracionais e dos reais, e não
+                            foi
+                            diferente quando houve a necessidade de ampliação do conjunto dos números reais para o
+                            dos
+                            números complexos.<br><br>
+
+                            Ao tentarmos resolver <strong>equações do segundo grau</strong>, é bastante comum que
+                            encontremos a <strong>raiz
+                                quadrada de um número negativo</strong>, o que é impossível de ser resolvido no conjunto
+                            dos
+                            números
+                            reais, por isso a necessidade dos números complexos. O início do estudo desses números
+                            recebeu contribuições de matemáticos importantes, como Giralmo Cardono, porém o conjunto
+                            deles foi formalizado por Gauss e Argand.
+                        </p>
+
+                        <h3 class="tituloContainer">Forma algébrica de um número complexo</h3>
+                        <p class="conteudo">
+                            Ao tentar-se resolver uma equação do segundo grau, como x² = –25, muitas vezes ela era dita
+
+                            como sem solução. Não obstante, na tentativa de algebrizar, surgiu então a
+                            <strong>representação
+                                algébrica, que possibilita a realização de operações com esses números</strong>, ainda
+                            que não se
+                            consiga calcular a raiz quadrada de um número negativo.<br><br>
+
+                            Para facilitar a resolução das situações em que se trabalha com a raiz quadrada de um
+                            número<br>
+                            negativo, foi definida a <strong>unidade imaginária</strong>.<br> <br>
+                            <img src="../assets/img/matematica/numerosComplexos/calculo.png"
+                                style="align-items: center;"> <br><br>
+                            Então, analisando-se a equação apresentada x² = -25, temos que: <br><br>
+                            <img src="../assets/img/matematica/numerosComplexos/calculo2.png"> <br><br>
+                            Desse modo, as soluções para a equação são -5i e 5i. <br><br>
+
+                            Para definir-se a forma algébrica, foi utilizada a letra <strong><i>i</i></strong>,
+                            conhecida como <strong>unidade
+
+                                imaginária de um número complexo</strong>. Um número complexo é representado por:
+                            <br><br>
+                            z = a + b<i>i</i> <br><br>
+                            Em que a e b são números reais.<br><br>
+
+                            a: parte real, indicada por a = Re(z);<br><br>
+
+                            b: parte imaginária, indicada por Im(z);<br><br>
+
+                            <i>i</i>: unidade imaginária.<br>
+                        </p>
+
+                        <h5 class="tituloContainer"><i>- Exemplos</i></h5>
+                        <p class="conteudo"><br>
+                            a) 2 + 3<i>i</i> <br><br>
+
+                            b) -1 + 4<i>i</i><br><br>
+
+                            c) 5 – 0,2<i>i</i><br><br>
+
+                            d) -1 – 3<i>i</i><br><br>
+
+                            Quando a <strong>parte real é nula</strong>, o número é conhecido como imaginário puro, por
+                            exemplo,
+                            –5<i>i</i> e
+                            5<i>i</i>
+                            são imaginários puros por não possuírem parte real.<br><br>
+
+                            Quando a parte imaginária é nula, o número complexo é também um número real.
+                        </p>
+
+                        <h3 class="tituloContainer">Operações com números complexos</h3>
+                        <p class="conteudo">Como todo conjunto numérico, as operações precisam estar <strong>bem
+                                definidas</strong>,
+                            logo, é possível realizar-se as quatro operações básicas dos números complexos levando-se em
+
+                            consideração a forma algébrica apresentada.
+
+                        </p>
+                        <h3 class="tituloContainer"><i>Adição de dois números complexos</i></h3>
+                        <p class="conteudo">Para realizarmos a adição de dois números complexos z<sub>1</sub> e
+                            z<sub>2</sub>, faremos a
+                            soma
+                            da parte real de z<sub>1</sub> e z<sub>2</sub> e a soma da parte imaginária,
+                            respectivamente. <br><br>
+
+                            Seja:<br><br>
+
+                            <strong> z<sub>1</sub></strong> = a + b<i>i</i><br><br>
+
+                            <strong> z<sub>2</sub></strong> = c + d<i>i</i><br><br>
+
+                            <center> <strong>z<sub>1</sub> + z<sub>2</sub></strong> = (a + c) + (b + d)<i>i</i></center>
+
+                        <h5 class="tituloContainer"><i>- Exemplo 1</i> </h5>
+                        <p class="conteudo">
+                            Realização da soma de z<sub>1</sub> e z<sub>2</sub>. <br><br>
+
+                            <strong>z<sub>1</sub></strong> = 2 + 3<i>i</i><br><br>
+
+                            <strong>z<sub>2</sub></strong> = 1 + 2<i>i</i><br><br>
+
+                            <center> <strong>z1</strong> + <strong>z2</strong> = (2 + 1) + (3 + 2)<i>i</i><br><br>
+
+                                <strong>z1</strong> + <strong>z2</strong> = 3 + 5<i>i</i>
+                            </center><br><br>
+                        </p>
+                        <h5 class="tituloContainer"><i>- Exemplo 2</i> </h5>
+                        <p class="conteudo">
+                            Realização da soma de z<sub>1</sub> e z<sub>2</sub>. <br><br>
+
+                            <strong>z<sub>1</sub></strong> = 5 – 2<i>i</i><br><br>
+
+                            <strong>z<sub>2</sub></strong> = – 3 + 2<i>i</i><br><br>
+
+                            <center><strong>z<sub>1</sub></strong> + <strong>z<sub>2</sub></strong> = (5 + (–3)) + (–2 +
+                                2)<i>i</i><br><br>
+
+                                <strong>z<sub>1</sub></strong> + <strong>z<sub>2</sub></strong> = (5 – 3) +
+                                0<i>i</i><br><br>
+
+                                <strong>z<sub>1</sub></strong> + <strong>z<sub>2</sub></strong> = 2 + 0<i>i</i> = 2
+                            </center><br><br>
+                        </p>
+
+                        <h3 class="tituloContainer">Subtração de dois números complexos</h3>
+                        <p class="conteudo">Antes de falarmos sobre subtração, precisamos definir o que é o
+                            <strong>inverso de
+
+                                um número complexo</strong>, ou seja, z = a + b<i>i</i>. O inverso de z, representado
+                            por –z, é o
+                            número
+                            complexo –z = –a – b<i>i</i>.<br><br>
+
+                            Para realizarmos a subtração entre z<sub>1</sub> e –z<sub>2</sub>, assim como na adição,
+                            faremos a
+                            <strong>subtração
+                                entre
+                                as partes reais e entre as partes imaginárias separadamente</strong>, porém é
+                            necessário
+                            compreender-se que –z<sub>2</sub> é o inverso de um número complexo, o que torna necessário
+                            a
+                            realização do jogo de sinal.
+
+                        <h5 class="tituloContainer"><i>- Exemplo 1</i></h5>
+                        <p class="conteudo">
+                            Realização da subtração de z<sub>1</sub> e z<sub>2</sub>. <br><br>
+
+                            <strong>z<sub>1</sub></strong> = 2 + 3<i>i</i><br><br>
+
+                            <strong>z<sub>2</sub></strong> = 1 + 2<i>i</i><br><br>
+
+                            <center><strong>z<sub>1</sub></strong> – <strong>z<sub>2</sub></strong> = (2 – 1) + (3 –
+                                2)<i>i</i><br>
+
+                                <strong>z<sub>1</sub></strong> – <strong>z<sub>2</sub></strong> = 1 + 1<i>i</i> = 1+
+                                <i>i</i>
+                            </center>
+                        </p>
+                        <h5 class="tituloContainer"><i>- Exemplo 2</i></h5>
+                        <p class="conteudo">
+                            Realização da subtração de z<sub>1</sub> e z<sub>2</sub>. <br><br>
+
+                            <strong>z<sub>1</sub></strong> = 5 – 2<i>i</i><br><br>
+
+                            <strong>z<sub>2</sub></strong> = – 3 + 2<i>i</i><br><br>
+
+                            <center><strong>z1</strong> – <strong>z2</strong> = (5 – (–3)) + (–2 – 2)<i>i</i><br>
+
+                                <strong>z<sub>1</sub></strong> – <strong>z<sub>2</sub></strong> = (5 + 3) +
+                                (–4)<i>i</i><br>
+
+                                <strong>z<sub>1</sub></strong> – <strong>z<sub>2</sub></strong> = 8 + (–4)<i>i</i><br>
+
+                                <strong>z<sub>1</sub></strong> – z<sub>2</sub> = 8 –4<i>i</i><br>
+                            </center>
+                        </p>
+                        </p>
+
+                        <h3 class="tituloContainer">Potências da unidade imaginária</h3>
+                        <p class="conteudo">Antes de falarmos em multiplicação, precisamos entender a potência da
+                            unidade imaginária. Na busca por um método para calcular-se potências de <img
+                                src="../assets/img/matematica/numerosComplexos/calculo3.png">, é necessário
+                            perceber que essas potências comportam-se de forma cíclica. Para isso, vamos calcular
+                            algumas potências de <i>i</i>. <br> <br>
+                            <img src="../assets/img/matematica/numerosComplexos/calculo4.png"> <br><br>
+                            Acontece que as próximas potências nada mais são que a sua repetição, note que: <br><br>
+                            <img src="../assets/img/matematica/numerosComplexos/calculo5.png"><br><br>
+                            Ao continuarmos a calcular as potências, as respostas sempre serão elementos do conjunto
+                            {1,i,–1,–<i>i</i>}, então, para encontrarmos uma potência da unidade <img
+                                src="../assets/img/matematica/numerosComplexos/calculo3.png">, faremos a divisão de n (o
+                            expoente) por 4, e o resto dessa divisão (r = { 0, 1, 2, 3}) será o novo expoente de
+                            <i>i</i>.
+                        <h5 class="tituloContainer"><i>- Exemplo 1</i></h5>
+                        <p class="conteudo"><br>
+                            Calculo de <img src="../assets/img/matematica/numerosComplexos/calculo6.png"> <br><br>
+                            Ao fazermos a divisão de 25 por 4, o quociente será 6 e o resto será igual a 1. Então temos
+                            que: <br>
+                            <img src="../assets/img/matematica/numerosComplexos/calculo6.png"> = <i>i</i>¹ = <i>i</i>
+                            <br>
+                        </p>
+                        <h5 class="tituloContainer"><i>- Exemplo 2</i> </h5>
+                        <p class="conteudo">
+                            Cálculo de <img src="../assets/img/matematica/numerosComplexos/calculo7.png"><br><br>
+
+                            Ao dividirmos 403 por 4, o quociente será 100, pois 100 · 4 = 400, e o resto será 3, então
+                            temos que: <br> <br>
+
+                            <center> <img src="../assets/img/matematica/numerosComplexos/calculo7.png"> = <i>i</i>³ =
+                                -<i>i</i> <br></center>
+
+                        </p>
+                        <h5 class="tituloContainer"><i>Saiba mas clicando <a
+                                    href="https://brasilescola.uol.com.br/matematica/numeros-complexos.htm">aqui</a>
+                            </i></h5>
+                        </p>
+                        <h2 class="tituloContainer">Exercícios sobre números complexos</h2>
+                        <p class="conteudo">Os números complexos são números que apresentam a forma reto z espaço igual
+                            a espaço reto a espaço mais espaço bi, onde a representa a parte real de z e a parte
+                            imaginária corresponde a b, sendo i a unidade imaginária.
+
+
+                        </p> <br><br>
+
+                        <span class="questoes-header" id="resp-1">Questão 1</span>
+                        <div class=" questoes-descricao">
+                            <p style="text-align: justify;">Dados os números complexos z<sub>1</sub> = (2,–1) e
+                                z<sub>2</sub> = (3, x),
+                                sabe-se que o produto entre z<sub>1</sub> e z<sub>2</sub> é um número real. Então x é
+                                igual a:</p>
+                            <p style="text-align: justify;">A) -6</p>
+                            <p style="text-align: justify;">B) -3/2</p>
+                            <p style="text-align: justify;">C) 0</p>
+                            <p style="text-align: justify;">D) 3/2</p>
+                            <p style="text-align: justify;">E) 6</p>
+
+                            <div class="bt-reposta">
+                                <a href="#questao-1">Ver Resposta</a>
+                            </div>
+                        </div> <br><br>
+
+                        <span class="questoes-header" id="resp-2">Questão 2</span>
+                        <div class=" questoes-descricao">
+                            <p style="text-align: justify;">Se i é o número complexo cujo quadrado é igual a -1, então
+                                o valor de 5<i>i</i><sup> 227</sup> + <i>i</i> <sup>6</sup> –<i> i</i><sup> 13</sup> é
+                                igual a:</p>
+                            <p style="text-align: justify;">A) <i>i</i> + 1</p>
+                            <p style="text-align: justify;">B) 4<i>i</i>-1</p>
+                            <p style="text-align: justify;">C) -6<i>i</i>-1</p>
+                            <p style="text-align: justify;">D) -6<i>i</i></p>
+
+
+                            <div class="bt-reposta">
+                                <a href="#questao-2">Ver Resposta</a>
+                            </div>
+                        </div> <br><br>
+
+                        <span class="questoes-header" id="resp-3">Questão 3</span>
+                        <div class=" questoes-descricao">
+                            <p style="text-align: justify;">Se u = 1 – 2i é um número complexo e <img
+                                    src="../assets/img/matematica/numerosComplexos/u.png"> seu conjugado, então
+                                z = u² + 3<img src="../assets/img/matematica/numerosComplexos/u.png"> é igual a:</p>
+                            <p style="text-align: justify;">A) – 6 – 2i</p>
+                            <p style="text-align: justify;">B) 2i</p>
+                            <p style="text-align: justify;">C) – 6</p>
+                            <p style="text-align: justify;">D) 8 + 2i</p>
+                            <p style="text-align: justify;">E) – 6 + 2i</p>
+
+
+                            <div class="bt-reposta">
+                                <a href="#questao-3">Ver Resposta</a>
+                            </div>
+                        </div> <br><br>
+
+                        <span class="questoes-header" id="resp-4">Questão 4</span>
+                        <div class=" questoes-descricao">
+                            <p style="text-align: justify;">Qual o resultado obtido com a realização da soma e da
+                                subtração, respectivamente, dos números complexos z<sub>1</sub> = 3 + i e z<sub>2</sub>
+                                = 1 + 2i?</p>
+
+                            <p style="text-align: justify;">A) 2 + 3i e 1 – i</p>
+                            <p style="text-align: justify;">B) 3 + 2i e -4 – i</p>
+                            <p style="text-align: justify;">C) 4 + 3i e 2 – i</p>
+                            <p style="text-align: justify;">D) 1 + 2i e -3 – i</p>
+
+
+                            <div class="bt-reposta">
+                                <a href="#questao-4">Ver Resposta</a>
+                            </div>
+                        </div> <br><br>
+
+                        <span class="questoes-header" id="resp-5">Questão 5</span>
+                        <div class=" questoes-descricao">
+                            <p style="text-align: justify;">Qual a forma algébrica de z no caso 3z = z - (- 8 + 6i)?</p>
+                            <p style="text-align: justify;">A) z = 4 – 2i</p>
+                            <p style="text-align: justify;">B) z = 4 – 3i</p>
+                            <p style="text-align: justify;">C) z = 2 – 2i</p>
+                            <p style="text-align: justify;">D) z = 1 – 2i</p>
+
+                            <div class="bt-reposta">
+                                <a href="#questao-5">Ver Resposta</a>
+                            </div>
+                        </div> <br><br>
+
+                        <h2 class="tituloContainer">Respostas:</h2> <br><br>
+
+                        <span id="questao-1" class="resposta-header">Questão 1</span>
+                        <div class="resposta-descricao">
+                            <p style="text-align: justify;">Alternativa D</p>
+                            <p style="text-align: justify;">Para que o produto seja um número real, então a parte
+                                imaginária é igual a zero.</p>
+                            <p style="text-align: justify;">Escrevendo esses números na forma algébrica, temos que:</p>
+                            <p style="text-align: center;">z<sub>1</sub> = 2 – 1<i>i</i> e z<sub>2</sub> = 3 + x<i>i</i>
+                            </p>
+                            <p style="text-align: center;">z<sub>1</sub> · z<sub>2</sub> = (2 – 1<i>i</i>) (3 +
+                                x<i>i</i>)</p>
+                            <p style="text-align: center;">z<sub>1</sub> · z<sub>2</sub> = 6 + 2x<i>i</i> –3<i>i</i> –
+                                x<i>i</i> ²</p>
+                            <p style="text-align: center;">z<sub>1</sub> · z<sub>2</sub> = 6 + 2x<i>i</i> –3<i>i</i> + x
+                            </p>
+                            <p style="text-align: center;">z<sub>1</sub> · z<sub>2</sub> = 6+ x + (2x – 3)<i>i</i></p>
+                            <p style="text-align: justify;">Como nosso interesse é que a parte imaginária seja igual a
+                                zero, então resolveremos 2x – 3 = 0</p>
+                            <p style="text-align: center;">2x - 3 = 0</p>
+                            <p style="text-align: center;">2x = 3</p>
+                            <p style="text-align: center;">x = 3/2</p>
+                            <div class="bt-resposta">
+                                <a href="#resp-1">Voltar a questão</a>
+                            </div>
+                        </div><br><br>
+
+                        <span id="questao-2" class="resposta-header">Questão 2</span>
+                        <div class="resposta-descricao">
+                            <p style="text-align: justify;">Alternativa C</p>
+                            <p style="text-align: justify;">Para resolver essa expressão, é necessário encontrar o resto
+                                de cada um dos números na divisão por 4.</p>
+                            <p style="text-align: justify;">227 : 4 resulta em quociente 56 e resto 3.</p>
+                            <p style="text-align: justify;"><i>i</i> <sup>227</sup> = <i>i</i> <sup>3</sup> = –<i>i</i>
+                            </p>
+                            <p style="text-align: justify;">6 : 4 resulta em quociente 1 e resto 2.</p>
+                            <p style="text-align: justify;"><i>i</i> <sup>6</sup> = <i>i</i> <sup>2</sup> = –1</p>
+                            <p style="text-align: justify;">13 : 4 resulta em quociente 3 e resto 1.</p>
+                            <p style="text-align: justify;"><i>i</i> <sup>13</sup> = <i>i</i><sup>1</sup> = <i>i</i></p>
+                            <p style="text-align: justify;">Então temos que:</p>
+                            <p style="text-align: justify;">5<i>i</i> <sup>227</sup> + <i>i</i> <sup>6</sup> – <i>i</i>
+                                <sup>13</sup>
+                            </p>
+                            <p style="text-align: justify;">5 (–<i>i</i>) + (–1) – <i>i</i></p>
+                            <p style="text-align: justify;">–5<i>i</i> –1 – <i>i</i></p>
+                            <p style="text-align: justify;">–6<i>i</i> – 1</p>
+
+                            <div class="bt-resposta">
+                                <a href="#resp-2">Voltar a questão</a>
+                            </div>
+
+                        </div><br><br>
+
+                        <span id="questao-3" class="resposta-header">Questão 3</span>
+                        <div class="resposta-descricao">
+                            <p style="text-align: justify;">Alternativa B</p>
+                            <p style="text-align: justify;">Primeiramente, devemos calcular o valor de u².</p>
+                            <p style="text-align: center;"><img
+                                    src="../assets/img/matematica/numerosComplexos/respQuestao3.png"></p>
+                            <p style="text-align: justify;">Se u = 1 – 2i então o seu conjunto é <img
+                                    src="../assets/img/matematica/numerosComplexos/u.png"> = 1 + 2i e 3<img
+                                    src="../assets/img/matematica/numerosComplexos/u.png"> = 3.(1+2i) = 3+6i</p>
+                            <p style="text-align: justify;">Agora, calculamos z = u² + 3<img
+                                    src="../assets/img/matematica/numerosComplexos/u.png"></p>
+                            <p style="text-align: center;"><img
+                                    src="../assets/img/matematica/numerosComplexos/resp2Questao3.png"></p>
+                            <p style="text-align: justify;">Portanto, o resultado é 2i, conforme a letra b.</p>
+
+                            <div class="bt-resposta">
+                                <a href="#resp-3">Voltar a questão</a>
+                            </div>
+                        </div> <br><br>
+
+                        <span id="questao-4" class="resposta-header">Questão 4</span>
+                        <div class="resposta-descricao">
+                            <p style="text-align: justify;">Alternativa C</p>
+                            <p style="text-align: justify;"><strong>Operação de soma:</strong></p>
+                            <p style="text-align: justify;">z<sub>1</sub> + z<sub>2</sub> = (a + c, b + d)</p>
+                            <p style="text-align: justify;">Na forma algébrica, temos:</p>
+                            <p style="text-align: justify;">(a + bi) + (c + di) = (a + c) + (b + d)i</p>
+                            <p style="text-align: justify;">Portanto:</p>
+                            <p style="text-align: justify;"><img
+                                    src="../assets/img/matematica/numerosComplexos/respQuestao4.png"></p>
+                            <p style="text-align: justify;"><strong>Operação de subtração:</strong></p>
+                            <p style="text-align: justify;">z<sub>1</sub> – z<sub>2</sub> = (a – c, b – d)</p>
+                            <p style="text-align: justify;">Na forma algébrica, temos:</p>
+                            <p style="text-align: justify;">(a + bi) – (c + di) = (a – c) + (b – d)i</p>
+                            <p style="text-align: justify;">Portanto:</p>
+                            <p style="text-align: justify;"><img
+                                    src="../assets/img/matematica/numerosComplexos/resp2Questao4.png"></p>
+                            <p style="text-align: justify;">Sendo assim, a soma e a subtração dos números complexos
+                                z<sub>1</sub> = 3 + i e z<sub>2</sub> = 1 + 2i são, respectivamente, 4 + 3i e 2 - i.</p>
+
+
+
+                            <div class="bt-resposta">
+                                <a href="#resp-4">Voltar a questão</a>
+                            </div>
+                        </div><br><br>
+
+                        <span id="questao-5" class="resposta-header">Questão 5</span>
+                        <div class="resposta-descricao">
+                            <p style="text-align: justify;">Alternativa B</p>
+                            <p style="text-align: justify;">A forma algébrica de z é utilizada para representar um
+                                número complexo através da fórmula:</p>
+                            <p style="text-align: justify;">z = x + yi</p>
+                            <p style="text-align: justify;">Onde:</p>
+                            <p style="text-align: justify;">x é a parte real de z</p>
+                            <p style="text-align: justify;">y é a parte imaginária de z</p>
+                            <p style="text-align: justify;">Portanto:</p>
+                            <p style="text-align: center;"><img
+                                    src="../assets/img/matematica/numerosComplexos/respQuestao5.png"></p>
+                            <p style="text-align: justify;">Logo, a forma algébrica de z no caso 3z = z - (-8 + 6i) é z
+                                = 4 – 3i.</p>
+
+                            <div class="bt-resposta">
+                                <a href="#resp-5">Voltar a questão</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container px-4 px-lg-5">
+            <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                    <a href="https://mundoeducacao.uol.com.br/ingles/unidades-de-medida-em-ingles-measures.htm"><img
+                            src="../assets/referencias/mundoEducacao.jpg" class="referencias"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://brasilescola.uol.com.br"> <img src="../assets/referencias/brasilEscolaLogo.jpg"
+                            class="referencias"></a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.infoescola.com"><img src="../assets/referencias/infoEscolaLogo.jpg"
+                            class="referencias"></a>
+                <li class="list-inline-item">
+                    <a href="https://guiadoestudante.abril.com.br"><img
+                            src="../assets/referencias/guiaDoEstudanteLogo.png" class="referencias"></a>
+                </li>
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Lucas Thierry de Mello Dias, Julia Cristina do Amaral</p>
+        </div>
+    </footer>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
